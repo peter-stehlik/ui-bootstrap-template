@@ -1,0 +1,41 @@
+.copy-cta {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 0.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copy-preview {
+  position: relative;
+  padding: 3rem 1.5rem 1.5rem;
+  border: 1px solid #eee;
+}
+.copy-preview .copy-cta {
+  top: 0;
+  right: auto;
+  left: 1.5rem;
+  padding-left: 0;
+  color: #eee;
+}
+
+.copy-code {
+  position: relative;
+  padding: 1.5rem;
+  background: #eee;
+}
+.copy-code pre {
+  margin: 0;
+  overflow: hidden;
+}
+.copy-code code {
+  padding: 0;
+  margin: 0;
+}
+.copy-code .copy-to-clipboard {
+  background: #fff;
+}
+
+/*# sourceMappingURL=preview-copy-wrap.css.map */

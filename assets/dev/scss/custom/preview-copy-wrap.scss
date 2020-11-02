@@ -1,0 +1,41 @@
+$copy-gutter: 1.5rem;
+$copy-grey-light: #eee;
+$copy-white: #fff;
+
+.copy-cta {
+	position: absolute;
+	top: $copy-gutter;
+	right: $copy-gutter;
+	padding: .5rem;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.copy-preview {
+	position: relative;
+	padding: $copy-gutter*2 $copy-gutter $copy-gutter;
+	border: 1px solid $copy-grey-light;
+	.copy-cta {
+		top: 0;
+		right: auto;
+		left: $copy-gutter;
+		padding-left: 0;
+		color: $copy-grey-light;
+	}
+}
+.copy-code {
+	position: relative;
+	padding: 1.5rem;
+	background: $copy-grey-light;
+	pre {
+		margin: 0;
+		overflow: hidden;
+	}
+	code {
+		padding: 0;
+		margin: 0;
+	}
+	.copy-to-clipboard {
+		background: $copy-white;
+	}
+}
